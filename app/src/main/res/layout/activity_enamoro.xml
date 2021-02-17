@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".layouts.EnamoroActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/idGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:weightSum="1"
+        android:padding="4dp"
+        app:columnCount="1"
+        app:rowCount="1">
+
+        <com.skydoves.elasticviews.ElasticCardView
+            android:id="@+id/img10k"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/fondo"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="12dp"
+            app:cardView_duration="250"
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/diezk" />
+
+            </LinearLayout>
+
+        </com.skydoves.elasticviews.ElasticCardView>
+        <com.skydoves.elasticviews.ElasticCardView
+            android:id="@+id/img14k"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/fondo"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="12dp"
+            app:cardView_duration="250"
+            app:cardView_scale="0.8"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/catorcek" />
+
+            </LinearLayout>
+
+        </com.skydoves.elasticviews.ElasticCardView>
+
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+
+</RelativeLayout>
