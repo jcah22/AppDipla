@@ -23,7 +23,7 @@
             android:layout_width="170dp"
             android:layout_height="170dp"
             android:adjustViewBounds="true"
-            android:contentDescription="imagen"
+            android:contentDescription="@string/imagen"
             android:scaleType="fitXY"
             tools:src="@drawable/ic_launcher_background" />
 
