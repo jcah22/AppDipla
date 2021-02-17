@@ -3,6 +3,7 @@ package com.jcah.dipla.layouts
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.jcah.dipla.R
 import com.jcah.dipla.adapters.Argolla10kAdapter
 import com.jcah.dipla.models.Argolla10k
