@@ -20,5 +20,10 @@ class EnamoroActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        img14k.setOnClickListener {
+            val intent = Intent(this,Argollas14Activity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
