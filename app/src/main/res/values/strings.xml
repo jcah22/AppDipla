@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">dipla</string>
     <string name="imagen">imagen</string>
+    <string name="peso_promedio">El peso promedio en cada argolla es equivalente al #9</string>
 </resources>

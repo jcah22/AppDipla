@@ -17,7 +17,7 @@ class Argolla10Activity : AppCompatActivity() {
             "Codigo: CL1101",
             "Descripcion: Argolla 6mm 10 Kilates",
             "Peso Promedio 1.8gr",
-            "https://dvillalpando.com/admin-es/img/_articulos/big_1443216315.jpg"
+            "https://cdn.shopify.com/s/files/1/0428/7286/4930/products/CL1101_035079b6-3037-4c95-b276-1fc76296670f_1024x1024@2x.jpg?v=1599244912"
         ),
         Argolla10k(
             "Codigo: CL1108",
